@@ -2,8 +2,9 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
-import "./layout.css"
+import Header from "./Header"
+import Footer from "./Footer"
+import Main from "./Main"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -27,12 +28,8 @@ const Layout = ({ children }) => (
             paddingTop: 0,
           }}
         >
-          <main>{children}</main>
-          <footer>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
-          </footer>
+          <Main>{children}</Main>
+          <Footer />
         </div>
       </>
     )}
