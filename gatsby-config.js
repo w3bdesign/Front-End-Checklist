@@ -1,8 +1,23 @@
 module.exports = {
   siteMetadata: {
-    title: `Front-End Checklist`,
-    description: ``,
+    title: `The Front-End Checklist`,
+    description: `🗂 The Front-End Checklist Application is perfect for modern websites and meticulous developers! Follow the rules and deliver the best of your work in a generated report!`,
+    index_title: `✨ Your best Front-End Tool ✨`,
     author: `@thedaviddias`,
+    url_website: `https://frontendchecklist.io`,
+    site_tagline: `🗂 The Front-End Checklist Application is perfect for modern websites and meticulous developers!`,
+    SITE_LANGUAGE: `en`,
+    SITE_DIRECTION: `ltr`,
+    URL_GITHUB_ROOT: `https://github.com/thedaviddias/Front-End-Checklist`,
+    URL_GITHUB_REPO: `https://github.com/thedaviddias/Front-End-Checklist/tree/gh-pages`,
+    HIGH_CHECKED: `✓ high priority`,
+    MEDIUM_CHECKED: `✓ medium priority`,
+    LOW_CHECKED: `✓ low priority`,
+    PERCENTAGE_CHECKED: `items are ✓`,
+    SECTION_DOCUMENTATION: `Documentation`,
+    SECTION_TOOL: `Tools`,
+    SECTION_VIDEO: `Videos`,
+    SECTION_TAG: `Filter by tags`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
