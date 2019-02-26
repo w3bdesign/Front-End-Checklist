@@ -44,7 +44,7 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
               {
                 name: `twitter:title`,
-                content: title,
+                content: data.site.siteMetadata.title,
               },
               {
                 name: `twitter:description`,

@@ -5,14 +5,15 @@ import Layout from "../components/layout"
 import Image from "../components/Image"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+import Sidebar from "../components/Sidebar"
+import Master from "../components/Master"
+
+const ChecklistPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-
-    <Link to="/checklist/">Go to page 2</Link>
+      <Sidebar />
+      <Master />
   </Layout>
 )
 
-export default IndexPage
+export default ChecklistPage
