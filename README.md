@@ -1,6 +1,6 @@
 <h1 align="center">
 <br>
-  <img src="https://raw.githubusercontent.com/thedaviddias/Front-End-Checklist/master/src/img/banners/logo-front-end-checklist.jpg" alt="Front-End Checklist" width="170">
+  <img src="https://raw.githubusercontent.com/thedaviddias/Front-End-Checklist/master/data/images/logo-front-end-checklist.jpg" alt="Front-End Checklist" width="130">
   <br>
     <br>
   Front-End Checklist
@@ -13,18 +13,12 @@
   <a href="http://makeapullrequest.com">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
   </a>
-  <a href="https://gitpod.io/#https://github.com/thedaviddias/Front-End-Checklist">
-  <img src="https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod" alt="Gitpod Ready-to-Code">
-  </a>
     <a href="https://github.com/thedaviddias/Front-End-Checklist/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/thedaviddias/Front-End-Checklist.svg?style=flat-square" alt="Contributors">
   </a>
-  <a href="https://spectrum.chat/front-end-checklist">
-    <img src="https://img.shields.io/badge/chat-on_spectrum-4837E2.svg?style=flat-square" alt="Spectrum">
-  </a>
-      <a href="https://github.com/thedaviddias/Front-End-Checklist/">
+  <a href="https://github.com/thedaviddias/Front-End-Checklist/">
     <img src="https://img.shields.io/badge/Front‑End_Checklist-followed-brightgreen.svg?style=flat-square" alt="Front‑End_Checklist followed">
-</a>
+  </a>
     <a href="https://creativecommons.org/publicdomain/zero/1.0/">
     <img src="https://img.shields.io/badge/license-CC0-green.svg?style=flat-square" alt="CC0">
   </a>
@@ -213,6 +207,15 @@ Minimum required xml markup for the `browserconfig.xml` file is as follows:
 ```html
 <link rel="alternate" href="https://es.example.com/" hreflang="es">
 ```
+
+* [ ] **x-default:** ![Low][low_img] The language tag of your website for international landing pages.
+
+```html
+<link rel="alternate" href="https://example.com/" hreflang="x-default" />
+```
+
+> * 📖 [x-default - Google](https://webmasters.googleblog.com/2013/04/x-default-hreflang-for-international-pages.html)
+
 
 * [ ] **Conditional comments:** ![Low][low_img] Conditional comments are present for IE if needed.
 
@@ -507,17 +510,17 @@ Visualize and generate automatically our social meta tags with [Meta Tags](https
 * [ ] **HTTP Strict Transport Security (HSTS):** ![Medium][medium_img] The HTTP header is set to 'Strict-Transport-Security'.
 
 > * 🛠 [Check HSTS preload status and eligibility](https://hstspreload.org/)
-> * 📖 [HTTP Strict Transport Security Cheat Sheet - OWASP](https://www.owasp.org/index.php/HTTP_Strict_Transport_Security_Cheat_Sheet)
-> * 📖 [Transport Layer Protection Cheat Sheet - OWASP](https://www.owasp.org/index.php/Transport_Layer_Protection_Cheat_Sheet)
+> * 📖 [HTTP Strict Transport Security Cheat Sheet - OWASP](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html)
+> * 📖 [Transport Layer Protection Cheat Sheet - OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html)
 
 * [ ] **Cross Site Request Forgery (CSRF):** ![High][high_img] You ensure that requests made to your server-side are legitimate and originate from your website / app to prevent CSRF attacks.
 
-> * 📖 [Cross-Site Request Forgery (CSRF) Prevention Cheat Sheet  - OWASP](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet)
+> * 📖 [Cross-Site Request Forgery (CSRF) Prevention Cheat Sheet  - OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html)
 
 * [ ] **Cross Site Scripting (XSS):** ![High][high_img] Your page or website is free from XSS possible issues.
 
-> * 📖 [XSS (Cross Site Scripting) Prevention Cheat Sheet  - OWASP](https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet)
-> * 📖 [DOM based XSS Prevention Cheat Sheet  - OWASP](https://www.owasp.org/index.php/DOM_based_XSS_Prevention_Cheat_Sheet)
+> * 📖 [XSS (Cross Site Scripting) Prevention Cheat Sheet  - OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
+> * 📖 [DOM based XSS Prevention Cheat Sheet  - OWASP](https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html)
 
 * [ ] **Content Type Options:** ![Medium][medium_img] Prevents Google Chrome and Internet Explorer from trying to mime-sniff the content-type of a response away from the one being declared by the server.
 
@@ -532,7 +535,7 @@ Visualize and generate automatically our social meta tags with [Meta Tags](https
 
 > * 📖 [Content Security Policy - An Introduction - Scott Helme](https://scotthelme.co.uk/content-security-policy-an-introduction/)
 > * 📖 [CSP Cheat Sheet - Scott Helme](https://scotthelme.co.uk/csp-cheat-sheet/)
-> * 📖 [CSP Cheat Sheet - OWASP](https://www.owasp.org/index.php/Content_Security_Policy_Cheat_Sheet)
+> * 📖 [CSP Cheat Sheet - OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html)
 > * 📖 [Content Security Policy Reference](https://content-security-policy.com/)
 
 **[⬆ back to top](#table-of-contents)**
@@ -755,13 +758,6 @@ This branch consists of the `README.md` file that is automatically reflected on 
 #### 2. `develop`
 
 This branch will be used to make some significant changes to the structure, content if needed. It is preferable to use the master branch to fix small errors or add a new item.
-
-
-### Online Setup with a single Click
-
-You can use gitpod ( A free VS Code like IDE) for contributing online, with a single click it will launch a ready to code workspace with all the dependencies pre-installed, build finished & the web server running so that you can start coding straight away.
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/thedaviddias/Front-End-Checklist)
 
 ## Support
 
