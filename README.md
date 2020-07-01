@@ -33,7 +33,6 @@
   <a href="https://github.com/thedaviddias/Front-End-Performance-Checklist#---------front-end-performance-checklist-">🎮 Front-End Performance Checklist</a> • <a href="https://github.com/thedaviddias/Front-End-Design-Checklist#front-end-design-checklist">💎 Front-End Design Checklist</a>
 </p>
 
-
 It is based on Front-End developers' years of experience, with the additions coming from some other open-source checklists.
 
 ## Table of Contents
