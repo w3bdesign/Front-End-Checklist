@@ -35,20 +35,6 @@
 
 It is based on Front-End developers' years of experience, with the additions coming from some other open-source checklists.
 
-## Table of Contents
-
-1. **[Head](#head)**
-2. **[HTML](#html)**
-3. **[Webfonts](#webfonts)**
-4. **[CSS](#css)**
-5. **[Images](#images)**
-6. **[JavaScript](#javascript)**
-7. **[Security](#security)**
-8. **[Performance](#performance-1)**
-9. **[Accessibility](#accessibility)**
-10. **[SEO](#seo)**
-11. **[Translations](#translations)**
-
 ---
 
 ## How to use?
@@ -378,7 +364,7 @@ Visualize and generate automatically our social meta tags with [Meta Tags](https
 > * 🛠 [UnCSS Online](https://uncss-online.com/)
 > * 🛠 [PurifyCSS](https://github.com/purifycss/purifycss)
 > * 🛠 [PurgeCSS](https://github.com/FullHuman/purgecss)
-> * 🛠 [Chrome DevTools Coverage](https://developers.google.com/web/updates/2017/04/devtools-release-notes#coverage)
+> * 🛠 [Chrome DevTools Coverage](https://developer.chrome.com/docs/devtools/coverage/)
 
 
 ### CSS testing
@@ -737,6 +723,7 @@ The Front-End Checklist is also available in other languages. Thanks for all tra
 * 🇹🇷 Turkish: [eraycetinay/Front-End-Checklist](https://github.com/eraycetinay/Front-End-Checklist)
 * 🇩🇪 German: [xfuture603/Front-End-Checklist](https://github.com/xFuture603/Front-End-Checklist)
 * 🇵🇱 Polish: [mbiesiad/Front-End-Checklist](https://github.com/mbiesiad/Front-End-Checklist)
+* 🇮🇩 Indonesian: [nniinnoo/Front-End-Checklist](https://github.com/nniinnoo/Front-End-Checklist)
 
 ---
 
