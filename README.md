@@ -7,6 +7,11 @@
   <br>
 </h1>
 
+---
+<h3 align="center">🚨 Currently working on a V2 of frontendchecklist.io,<br>feel free to <a href="https://github.com/thedaviddias/Front-End-Checklist/discussions">discuss</a> any feature you would like to see in the next version</h3>
+
+---
+
 <h4 align="center">The Front-End Checklist is an exhaustive list of all elements you need to have / to test before launching your website / HTML page to production.</h4>
 
 <p align="center">
@@ -684,24 +689,12 @@ Visualize and generate automatically our social meta tags with [Meta Tags](https
 > * 📖 [Introduction to Structured Data - Search - Google Developers](https://developers.google.com/search/docs/guides/intro-structured-data)
 > * 📖 [JSON-LD](https://json-ld.org/)
 > * 📖 [Microdata](https://www.w3.org/TR/microdata/)
-> * 🛠 Test your page with the [Rich Restults Test](https://search.google.com/test/rich-results)
+> * 🛠 Test your page with the [Rich Results Test](https://search.google.com/test/rich-results)
 > * 🛠 Complete list of vocabularies that can be used as structured data. [Schema.org Full Hierarchy](http://schema.org/docs/full.html)
 
 * [ ] **Sitemap HTML:** ![Medium][medium_img] An HTML sitemap is provided and is accessible via a link in the footer of your website.
 
 > * 📖 [Sitemap guidelines - Google Support](https://support.google.com/webmasters/answer/183668?hl=en)
-
-* [ ] **Pagination link tags:** ![Medium][medium_img] Provide `rel="prev"` and `rel="next"` to indicate paginated content.
-
-> * 🛠 [Pagination (rel="prev/next") Testing Tool](https://technicalseo.com/seo-tools/rel-prev-next/)
-
-> * 📖 [Pagination guidelines - Google Support](https://support.google.com/webmasters/answer/1663744?hl=en)
-
-```html
-<!-- Example: Pagination link tags for page 2 of a paginated list -->
-<link rel="prev" href="https://example.com/?page=1">
-<link rel="next" href="https://example.com/?page=3">
-```
 
 **[⬆ back to top](#table-of-contents)**
 
